@@ -1,36 +1,52 @@
-# Awesome Web-Based API Development Environment
+# 🌐 Awesome Web-Based API Development Environment 🛠️
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<div align="center">
+  <img src="assets/banner.svg" alt="Awesome Web-Based API Development Environment Banner" width="100%" />
+</div>
+
+<div align="center">
+
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+[![Awesome](https://awesome.re/badge.svg)](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)
 [![Track Awesome List](https://www.trackawesomelist.com/badge.svg)](https://www.trackawesomelist.com)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
-> A curated list of the best **Web-Based API Development Environment** platforms, browser-based REST/GraphQL clients, API testing suites, mock servers, and interactive specification tools. Covers both commercial SaaS/cloud platforms and self-hosted open-source alternatives.
+</div>
 
----
-
-## 📋 Table of Contents
-
-- [Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
-- [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-- [Open-Source Software](#-open-source-software)
-- [Comparison at a Glance](#-comparison-at-a-glance)
-- [Contributing](#-contributing)
-- [License](#-license)
+> 🚀 A curated list of the best **Web-Based API Development Environment** platforms, browser-based REST/GraphQL clients, API testing suites, mock servers, and interactive specification tools. Covers both commercial SaaS/cloud platforms and self-hosted open-source alternatives.  
+> 🌟 *Star this repository if you find it helpful!* 🌟
 
 ---
 
-## 📈 Sector Overview & Market Dynamics
+## 📋 Table of Contents 📑
 
-The global API management and development tooling market is estimated at **$6.89B – $9.50B** (projected to reach over **$13.5B+** by 2026 at a CAGR of ~15–25%), driven by enterprise microservices, AI agent integrations, and API-first architectures. The sector is **moderately fragmented**: while cloud giants (Oracle, Broadcom, Google, AWS) and dominant platforms like Postman lead enterprise mindshare, the space resists a winner-take-all monopoly due to developer resistance against vendor lock-in, fueling thriving demand for agile, local-first, and open-source alternatives.
+- [📈 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics-)
+- [🟦 SaaS / Hosted Platforms](#-saas--hosted-platforms-)
+- [🟩 Open-Source Software](#-open-source-software-)
+- [📊 Comparison at a Glance](#-comparison-at-a-glance-)
+- [🔍 SEO Keywords & Search Queries](#-seo-keywords--search-queries-)
+- [🤝 Contributing](#-contributing-)
+- [💖 Support & Community](#-support--community-)
+- [⭐ Star History](#-star-history-)
+- [📄 License](#-license-)
 
 ---
 
-## 🟦 SaaS / Hosted Platforms
+## 📈 Sector Overview & Market Dynamics 📊
+
+The global API management and development tooling market is estimated at **$6.89B – $9.50B** (projected to reach over **$13.5B+** by 2026 at a CAGR of ~15–25%), driven by enterprise microservices, AI agent integrations, and API-first architectures. 
+
+The sector is **moderately fragmented**: while cloud giants (Oracle, Broadcom, Google, AWS) and dominant platforms like Postman lead enterprise mindshare, the space resists a winner-take-all monopoly due to developer resistance against vendor lock-in, fueling thriving demand for agile, local-first, and open-source alternatives.
+
+---
+
+## 🟦 SaaS / Hosted Platforms ☁️
 
 Commercial, cloud-hosted Web-Based API Development Environment platforms sorted in descending order by parent company scale (market capitalization, valuation, or estimated annual revenue).
 
-| Platform | Parent Company / Scale (Valuation / Revenue) | Starting Paid Tier Pricing | Free Tier / Trial Limits | Key Highlights |
+| Platform 🚀 | Parent Company / Scale (Valuation / Revenue) 🏢 | Starting Paid Tier Pricing 💳 | Free Tier / Trial Limits 🎁 | Key Highlights 💡 |
 |:---|:---|:---|:---|:---|
 | **[Runscope](https://www.runscope.com/)** | **Broadcom / Perforce**<br>~$1.4T Market Cap (Broadcom) / ~$89B TTM Revenue | **$79/month** (Small plan, billed monthly or annually) | **14-day free trial**; includes enterprise testing & monitoring, up to 1-min schedules, and 19 global locations | Cloud-based synthetic API monitoring, automated regression testing, and CI/CD quality gates. |
 | **[Apiary Editor](https://apiary.io/)** | **Oracle**<br>~$350B–$395B Market Cap / ~$67.4B Annual Revenue | **$99/month** (Standard plan) | **Free forever plan**; supports unlimited public API projects and up to **5 collaborators per project** (no private projects) | Browser-based API Blueprint and OpenAPI editor featuring interactive docs and Dredd-based contract testing. |
@@ -43,65 +59,65 @@ Commercial, cloud-hosted Web-Based API Development Environment platforms sorted 
 
 ---
 
-## 🟩 Open-Source Software
+## 🟩 Open-Source Software 🔓
 
 Community-driven, self-hostable open-source API development environments, API testing clients, mock servers, and interactive documentation engines. Sorted in descending order by GitHub stargazers.
 
-### 1. [Hoppscotch](https://hoppscotch.com/) [![GitHub stars](https://img.shields.io/github/stars/hoppscotch/hoppscotch?style=social&color=white)](https://github.com/hoppscotch/hoppscotch/stargazers)
+### 1. [Hoppscotch](https://hoppscotch.com/) [![GitHub stars](https://img.shields.io/github/stars/hoppscotch/hoppscotch?style=social&color=white)](https://github.com/hoppscotch/hoppscotch/stargazers) ⚡
 - **GitHub:** [`hoppscotch/hoppscotch`](https://github.com/hoppscotch/hoppscotch)
-- **Stack & License:** TypeScript / Vue.js | MIT License
+- **Stack & License:** TypeScript / Vue.js | MIT License 📜
 - **Key Features:** Fast, lightweight browser-based API client ecosystem and leading open-source Postman alternative. Natively supports REST, GraphQL, WebSocket, Server-Sent Events (SSE), and MQTT. Features real-time multi-environment syncing, team collaboration, self-hosted deployment, and an AI assistant.
 
-### 2. [Bruno](https://www.usebruno.com/) [![GitHub stars](https://img.shields.io/github/stars/usebruno/bruno?style=social&color=white)](https://github.com/usebruno/bruno/stargazers)
+### 2. [Bruno](https://www.usebruno.com/) [![GitHub stars](https://img.shields.io/github/stars/usebruno/bruno?style=social&color=white)](https://github.com/usebruno/bruno/stargazers) 🐶
 - **GitHub:** [`usebruno/bruno`](https://github.com/usebruno/bruno)
-- **Stack & License:** JavaScript / React / Electron | MIT License
+- **Stack & License:** JavaScript / React / Electron | MIT License 📜
 - **Key Features:** Fast and Git-friendly API client that saves collections directly in local filesystem folders using plain text markup (Bru language). Eliminates cloud synchronization lock-in and enables seamless peer reviews via Git PRs.
 
-### 3. [Insomnia](https://github.com/Kong/insomnia) [![GitHub stars](https://img.shields.io/github/stars/Kong/insomnia?style=social&color=white)](https://github.com/Kong/insomnia/stargazers)
+### 3. [Insomnia](https://github.com/Kong/insomnia) [![GitHub stars](https://img.shields.io/github/stars/Kong/insomnia?style=social&color=white)](https://github.com/Kong/insomnia/stargazers) 🌙
 - **GitHub:** [`Kong/insomnia`](https://github.com/Kong/insomnia)
-- **Stack & License:** TypeScript / Electron | Apache-2.0 License
+- **Stack & License:** TypeScript / Electron | Apache-2.0 License 📜
 - **Key Features:** Cross-platform desktop and web API design/testing client supporting REST, SOAP, GraphQL, gRPC, and Model Context Protocol (MCP). Backed by Kong with Git-sync, schema linting, environment variables, and plugin ecosystem.
 
-### 4. [Yaak](https://yaak.app/) [![GitHub stars](https://img.shields.io/github/stars/mountain-loop/yaak?style=social&color=white)](https://github.com/mountain-loop/yaak/stargazers)
+### 4. [Yaak](https://yaak.app/) [![GitHub stars](https://img.shields.io/github/stars/mountain-loop/yaak?style=social&color=white)](https://github.com/mountain-loop/yaak/stargazers) 🦬
 - **GitHub:** [`mountain-loop/yaak`](https://github.com/mountain-loop/yaak)
-- **Stack & License:** Rust / Tauri / React | GPL-3.0 License
+- **Stack & License:** Rust / Tauri / React | GPL-3.0 License 📜
 - **Key Features:** Ultra-fast, lightweight desktop/web API client built with Rust and Tauri. Delivers native-level memory performance for executing REST, GraphQL, and gRPC requests with nested environments and authentication handlers.
 
-### 5. [Scalar](https://scalar.com/) [![GitHub stars](https://img.shields.io/github/stars/scalar/scalar?style=social&color=white)](https://github.com/scalar/scalar/stargazers)
+### 5. [Scalar](https://scalar.com/) [![GitHub stars](https://img.shields.io/github/stars/scalar/scalar?style=social&color=white)](https://github.com/scalar/scalar/stargazers) 📐
 - **GitHub:** [`scalar/scalar`](https://github.com/scalar/scalar)
-- **Stack & License:** TypeScript / Vue.js | MIT License
+- **Stack & License:** TypeScript / Vue.js | MIT License 📜
 - **Key Features:** Modern, interactive API documentation engine and browser-based API client. Reads OpenAPI and Swagger specifications to render instant interactive API playgrounds, mock endpoints, and multi-language client code generation.
 
-### 6. [Swagger Editor](https://swagger.io/tools/swagger-editor/) [![GitHub stars](https://img.shields.io/github/stars/swagger-api/swagger-editor?style=social&color=white)](https://github.com/swagger-api/swagger-editor/stargazers)
+### 6. [Swagger Editor](https://swagger.io/tools/swagger-editor/) [![GitHub stars](https://img.shields.io/github/stars/swagger-api/swagger-editor?style=social&color=white)](https://github.com/swagger-api/swagger-editor/stargazers) 📝
 - **GitHub:** [`swagger-api/swagger-editor`](https://github.com/swagger-api/swagger-editor)
-- **Stack & License:** JavaScript / Monaco Editor | Apache-2.0 License
+- **Stack & License:** JavaScript / Monaco Editor | Apache-2.0 License 📜
 - **Key Features:** Canonical browser-based editor for writing and linting OpenAPI 2.0/3.0/3.1 and AsyncAPI definitions. Powered by the Monaco Editor with Language Server Protocol (LSP) validation, autocompletion, and live rendering.
 
-### 7. [Mockoon](https://mockoon.com/) [![GitHub stars](https://img.shields.io/github/stars/mockoon/mockoon?style=social&color=white)](https://github.com/mockoon/mockoon/stargazers)
+### 7. [Mockoon](https://mockoon.com/) [![GitHub stars](https://img.shields.io/github/stars/mockoon/mockoon?style=social&color=white)](https://github.com/mockoon/mockoon/stargazers) 🎭
 - **GitHub:** [`mockoon/mockoon`](https://github.com/mockoon/mockoon)
-- **Stack & License:** TypeScript / Electron / Node.js | MIT License
+- **Stack & License:** TypeScript / Electron / Node.js | MIT License 📜
 - **Key Features:** Effortless local and cloud API mock server generator. Create custom endpoints, mock complex JSON schemas, simulate network latency and HTTP status codes, and run mock setups headlessly in CI/CD pipelines via CLI or Docker.
 
-### 8. [WireMock](https://wiremock.org/) [![GitHub stars](https://img.shields.io/github/stars/wiremock/wiremock?style=social&color=white)](https://github.com/wiremock/wiremock/stargazers)
+### 8. [WireMock](https://wiremock.org/) [![GitHub stars](https://img.shields.io/github/stars/wiremock/wiremock?style=social&color=white)](https://github.com/wiremock/wiremock/stargazers) 🔌
 - **GitHub:** [`wiremock/wiremock`](https://github.com/wiremock/wiremock)
-- **Stack & License:** Java / Cloud-native | Apache-2.0 License
+- **Stack & License:** Java / Cloud-native | Apache-2.0 License 📜
 - **Key Features:** Industry-standard HTTP mock server and API stubbing library used worldwide for integration testing. Supports stateful mocking, request matching, fault injection, dynamic templating, and record-and-playback features.
 
-### 9. [Prism](https://stoplight.io/open-source/prism) [![GitHub stars](https://img.shields.io/github/stars/stoplightio/prism?style=social&color=white)](https://github.com/stoplightio/prism/stargazers)
+### 9. [Prism](https://stoplight.io/open-source/prism) [![GitHub stars](https://img.shields.io/github/stars/stoplightio/prism?style=social&color=white)](https://github.com/stoplightio/prism/stargazers) 🔮
 - **GitHub:** [`stoplightio/prism`](https://github.com/stoplightio/prism)
-- **Stack & License:** TypeScript / Node.js | Apache-2.0 License
+- **Stack & License:** TypeScript / Node.js | Apache-2.0 License 📜
 - **Key Features:** Open-source HTTP mock server created by Stoplight. Generates realistic mock endpoints directly from OpenAPI v2/v3 and Postman specifications with dynamic response generation and contract validation.
 
-### 10. [Microcks](https://microcks.io/) [![GitHub stars](https://img.shields.io/github/stars/microcks/microcks?style=social&color=white)](https://github.com/microcks/microcks/stargazers)
+### 10. [Microcks](https://microcks.io/) [![GitHub stars](https://img.shields.io/github/stars/microcks/microcks?style=social&color=white)](https://github.com/microcks/microcks/stargazers) 🚢
 - **GitHub:** [`microcks/microcks`](https://github.com/microcks/microcks)
-- **Stack & License:** Java / Kubernetes | Apache-2.0 License
+- **Stack & License:** Java / Kubernetes | Apache-2.0 License 📜
 - **Key Features:** CNCF Sandbox cloud-native platform for API mocking and contract testing. Supports OpenAPI, AsyncAPI, GraphQL, gRPC, and SOAP protocols with turnkey deployment on Kubernetes and enterprise CI/CD integration.
 
 ---
 
-## 📊 Comparison at a Glance
+## 📊 Comparison at a Glance 🔍
 
-| Software | License | Web-Based | Self-Hosted | Free Tier Limits | Primary Best-Fit Scenario |
+| Software 🛠️ | License 📜 | Web-Based 🌐 | Self-Hosted 🏠 | Free Tier Limits 🎁 | Primary Best-Fit Scenario 🎯 |
 |:---|:---|:---:|:---:|:---|:---|
 | **Postman Web** | Proprietary | ✅ | ❌ | Free for 1 user (unlimited runs & mocks) | Industry default full lifecycle API workspace |
 | **Insomnia** | Apache-2.0 / SaaS | ✅ | ✅ | Free forever unlimited collaboration | Free team collaboration & local Git sync |
@@ -122,28 +138,48 @@ Community-driven, self-hostable open-source API development environments, API te
 
 ---
 
-## 🔍 SEO Keywords & Search Queries
+## 🔍 SEO Keywords & Search Queries 🎯
 
-*Web-Based API Development Environment, online REST API client, Postman web alternative, self-hosted API testing tool, Hoppscotch online, open source API client, browser API designer, Swagger OpenAPI editor, GraphQL web testing, mock API server, API contract testing, Insomnia REST client, Bruno API git sync.*
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! If you know of an open-source or browser-based API development platform that should be included:
-
-1. Fork this repository.
-2. Add your project under the appropriate section with complete metadata, accurate pricing/free limits, and GitHub stargazer badge.
-3. Submit a pull request detailing why the tool is beneficial.
-
-Please verify the tool is actively maintained with updates in the last 12 months.
+*Web-Based API Development Environment, online REST API client, Postman web alternative, self-hosted API testing tool, Hoppscotch online, open source API client, browser API designer, Swagger OpenAPI editor, GraphQL web testing, mock API server, API contract testing, Insomnia REST client, Bruno API git sync, API playground, OpenAPI 3.1 tooling.*
 
 ---
 
-## 📄 License
+## 🤝 Contributing 💡
 
-This repository is distributed under the [CC0 1.0 Universal](LICENSE) (Public Domain Dedication). Listed software projects retain their respective trademarks, copyrights, and licenses.
+Contributions are always welcome and highly encouraged! 🌟 If you know of an awesome open-source or browser-based API development platform that should be included:
+
+1. 🍴 Fork this repository.
+2. 🌿 Create a new feature branch (`git checkout -b feature/awesome-api-tool`).
+3. 📝 Add your project with complete metadata, accurate pricing/free limits, and GitHub stargazer badge.
+4. 🚀 Submit a pull request detailing why the tool is beneficial.
+
+Please verify the tool is actively maintained with updates within the last 12 months.
 
 ---
 
-⭐ **If this repository helped you find the right API tooling, please give it a star!** ⭐
+## 💖 Support & Community ☕
+
+Thank you so much for exploring this curated repository! 🙏 Your support keeps this project vibrant, up-to-date, and growing:
+
+- ⭐ **Star this repository** to help other developers discover modern API tools.
+- 🍴 **Fork and contribute** to expand our catalog with fresh platforms.
+- 📢 **Share with your colleagues and developer communities** on social networks!
+- ☕ **Buy a coffee & sponsor this work:** If you find this list valuable, consider supporting ongoing curation through the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007). Your sponsorship is deeply appreciated!
+
+---
+
+##  Star History
+
+[![Star Hsstory Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Web-Based-API-Development-Environment&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Web-Based-API-Development-Environment&type=date&legend=top-left)
+
+---
+
+## 📄 License ⚖️
+
+This repository is distributed under the [CC0 1.0 Universal](LICENSE) (Public Domain Dedication). Listed software projects and services retain their respective trademarks, copyrights, and licenses.
+
+---
+
+<div align="center">
+  ⭐ <b>Found this project helpful? Give it a star to show your support!</b> ⭐
+</div>
