@@ -1,135 +1,149 @@
-# Awesome-Web-Based-API-Development-Environment
-
 # Awesome Web-Based API Development Environment
 
-> A curated list of top Web-Based API Development Environment platforms — both SaaS/Hosted commercial solutions and open-source alternatives for designing, testing, mocking, and documenting APIs directly in the browser.  
-> 🌟 Star this repo if you find it useful! 🌟
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![Track Awesome List](https://www.trackawesomelist.com/badge.svg)](https://www.trackawesomelist.com)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
+
+> A curated list of the best **Web-Based API Development Environment** platforms, browser-based REST/GraphQL clients, API testing suites, mock servers, and interactive specification tools. Covers both commercial SaaS/cloud platforms and self-hosted open-source alternatives.
 
 ---
 
 ## 📋 Table of Contents
 
+- [Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
 - [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-  - [Postman Web App](#postman-web-app)
-  - [Insomnia Cloud](#insomnia-cloud)
-  - [Swagger Editor Online](#swagger-editor-online)
-  - [Thunder Client](#thunder-client)
-  - [Firecamp Web](#firecamp-web)
-  - [HTTPie Web](#httpie-web)
-  - [Apiary Editor](#apiary-editor)
-  - [Runscope](#runscope)
 - [Open-Source Software](#-open-source-software)
-  - [Hoppscotch](#hoppscotch)
-  - [Bruno](#bruno)
-  - [Swagger Editor (Self-Hosted)](#swagger-editor-self-hosted)
-  - [Prism](#prism)
-  - [Microcks](#microcks)
 - [Comparison at a Glance](#-comparison-at-a-glance)
 - [Contributing](#-contributing)
+- [License](#-license)
+
+---
+
+## 📈 Sector Overview & Market Dynamics
+
+The global API management and development tooling market is estimated at **$6.89B – $9.50B** (projected to reach over **$13.5B+** by 2026 at a CAGR of ~15–25%), driven by enterprise microservices, AI agent integrations, and API-first architectures. The sector is **moderately fragmented**: while cloud giants (Oracle, Broadcom, Google, AWS) and dominant platforms like Postman lead enterprise mindshare, the space resists a winner-take-all monopoly due to developer resistance against vendor lock-in, fueling thriving demand for agile, local-first, and open-source alternatives.
 
 ---
 
 ## 🟦 SaaS / Hosted Platforms
 
-Commercial, cloud-hosted Web-Based API Development Environment platforms. These are not open-source but are included as reference points for feature comparison.
+Commercial, cloud-hosted Web-Based API Development Environment platforms sorted in descending order by parent company scale (market capitalization, valuation, or estimated annual revenue).
 
-### Postman Web App
-**Type:** Full API lifecycle platform  
-Postman's web app brings collections, environments, mock servers, monitors, and AI assistance to the browser. The March 2026 plan changes simplified offerings: Free is now limited to one user (no team collaboration), while Solo provides advanced features for individuals and Team enables collaboration [citation:12]. Mock servers and collection runs are now unlimited across all plans [citation:12]. AI credits power Agent Mode for generating requests, tests, and documentation, with overage billing available [citation:1]. The platform is the industry default but increasingly expensive for teams.
-
-### Insomnia Cloud
-**Type:** API client with free cloud collaboration  
-Insomnia Cloud offers **free forever** collaboration for unlimited users, unlimited collections, and unlimited collection runs, with end-to-end encrypted collaboration . Local-first storage is the default, and Git Sync supports up to 3 users at no cost. AI Assist (v12) provides AI-powered commit message generation . The web app layers a graphical interface over the same request/response model as the desktop client. Positioned as a direct Postman alternative with a genuinely free collaboration tier.
-
-### Swagger Editor Online
-**Type:** Browser-based API specification editor  
-The new Swagger Editor (2025) is built on Monaco Editor (VS Code's engine) with full Language Server Protocol support: real-time validation, context-aware autocompletion, go-to-definition, and inline documentation [citation:3][citation:14]. Supports OpenAPI 2.0, 3.0.x, 3.1.0, and AsyncAPI 2.x out of the box [citation:3]. The plugin system allows custom LSP rules and UI extensions. The editor runs entirely in the browser with no backend required for basic editing.
-
-### Thunder Client
-**Type:** VS Code extension with web capabilities  
-Thunder Client is a lightweight API client available as a VS Code extension (and related web tooling). The free version limits collections to 50 requests (increased from 15), with HTML report generation included in Run Collection [citation:5]. The Collection Runner is a premium feature. Scripting support includes `tc.test()` for assertions, cookie management APIs, and inline scripting. Positioned as a lightweight alternative to Postman for VS Code users, though the free tier is constrained.
-
-### Firecamp Web
-**Type:** Multi-protocol API platform  
-Firecamp provides GUI clients for REST, GraphQL, MQTT, WebSocket, and Kafka [citation:6]. Supports team collaboration with separate accounts for different teams, protobuf serialization/deserialization, and API lifecycle management. Offers a free-forever plan with paid tiers starting at $7/user/month [citation:6]. The web app brings multi-protocol testing to the browser, differentiating from REST-focused competitors.
-
-### HTTPie Web
-**Type:** Web app companion to HTTPie CLI  
-HTTPie's web app and Desktop client layer a graphical interface over the same request/response model as the command-line tool [citation:8]. The CLI is beloved for its expressive syntax mirroring actual HTTP requests, syntax-highlighted output, native JSON support, and extensible plugin system covering OAuth, AWS, NTLM, and more [citation:8]. The web app is freemium; the CLI remains open-source and cross-platform.
-
-### Apiary Editor
-**Type:** API design and documentation (API Blueprint)  
-Apiary supports API Blueprint and OpenAPI formats with an online editor, mock server, interactive documentation, and Dredd-based testing [citation:9]. Free plan allows up to 5 collaborators per API project with basic GitHub sync. Pro plan adds advanced GitHub integration, style guide rules, and priority support. **Note:** The free plan has been deprecated according to some sources, indicating potential changes in availability [citation:9].
-
-### Runscope
-**Type:** API monitoring and testing  
-Runscope focuses on API monitoring with 19 global locations, up to 1-minute schedules, and integrations with Slack, DataDog, PagerDuty, and more [citation:10]. Supports OpenAPI (Swagger) import and Postman import. Pricing starts at $79/month for 250,000 requests and 5 team members [citation:10]. The web-based interface is oriented toward monitoring and test automation rather than interactive API design.
+| Platform | Parent Company / Scale (Valuation / Revenue) | Starting Paid Tier Pricing | Free Tier / Trial Limits | Key Highlights |
+|:---|:---|:---|:---|:---|
+| **[Runscope](https://www.runscope.com/)** | **Broadcom / Perforce**<br>~$1.4T Market Cap (Broadcom) / ~$89B TTM Revenue | **$79/month** (Small plan, billed monthly or annually) | **14-day free trial**; includes enterprise testing & monitoring, up to 1-min schedules, and 19 global locations | Cloud-based synthetic API monitoring, automated regression testing, and CI/CD quality gates. |
+| **[Apiary Editor](https://apiary.io/)** | **Oracle**<br>~$350B–$395B Market Cap / ~$67.4B Annual Revenue | **$99/month** (Standard plan) | **Free forever plan**; supports unlimited public API projects and up to **5 collaborators per project** (no private projects) | Browser-based API Blueprint and OpenAPI editor featuring interactive docs and Dredd-based contract testing. |
+| **[Postman Web](https://www.postman.com/)** | **Postman**<br>~$5.6B Peak Valuation / ~$300M+ ARR | **$14/user/month** (Basic plan, billed annually) | **Free forever plan**; limited to **1 user** (no team collaboration), unlimited mock servers & collection runs | The de facto industry standard API client offering cloud workspaces, automated testing, monitors, and AI Agent mode. |
+| **[Insomnia Cloud](https://insomnia.rest/)** | **Kong Inc.**<br>~$2.0B Valuation / ~$100M+ ARR | **$5/user/month** (Team plan, billed annually) | **Free forever plan**; includes **unlimited users collaboration**, unlimited collections, local-first storage, and Git sync for up to 3 users | Lightweight, AI-native REST/GraphQL/gRPC client with end-to-end encrypted team collaboration and Git sync. |
+| **[Swagger Editor Online](https://editor.swagger.io/)** | **SmartBear**<br>~$1.8B–$2.0B Valuation / ~$150M+ Revenue | **$19/user/month** (SwaggerHub Individual plan) | **Free forever open-source online editor**; SwaggerHub SaaS provides a free tier for 1 user and public/limited API definitions | Monaco-based OpenAPI 2.0/3.0/3.1 and AsyncAPI browser designer with real-time LSP linting and syntax highlighting. |
+| **[HTTPie Web](https://httpie.io/)** | **HTTPie**<br>~$6.5M VC Funding / ~$550K ARR | **Free / Custom Enterprise** (Quotation-based enterprise tiers) | **Free forever plan**; includes unlimited browser/incognito API testing, cloud workspaces, sync, and HTTPie AI access | Human-friendly visual web companion to the popular CLI client, supporting effortless REST and GraphQL interactions. |
+| **[Thunder Client](https://www.thunderclient.com/)** | **Thunder Client**<br>Bootstrapped / 7M+ developer downloads | **$3/user/month** (Starter plan, billed annually) | **Free forever plan**; capped at **3 collections** and **30 requests per collection** (unlimited environments) | Lightweight GUI-based API client for VS Code and web editors with built-in script runners and Git sync. |
+| **[Firecamp Web](https://firecamp.io/)** | **Firecamp**<br>Seed / Early-stage Bootstrapped | **$49/month** (Team plan for up to 15 members, billed annually) | **Free forever plan**; supports up to **5 team members**, unlimited workspaces, and unlimited collections | Multi-protocol web development environment covering REST, GraphQL, WebSocket, Socket.IO, and Kafka. |
 
 ---
 
 ## 🟩 Open-Source Software
 
-Self-hosted, community-driven Web-Based API Development tools. All listed projects offer source code you can deploy or run locally.
+Community-driven, self-hostable open-source API development environments, API testing clients, mock servers, and interactive documentation engines. Sorted in descending order by GitHub stargazers.
 
-### Hoppscotch
-**Stack:** TypeScript / Vue | **License:** MIT  
-A lightweight, open-source API development ecosystem available as a web app, desktop app (Tauri), and PWA. Supports REST, GraphQL, WebSocket, SSE, and MQTT. The v2026.9.0 release introduced **Enterprise Cloud** ($11/user/month annually) with SSO, audit logs, and dedicated support, plus an **AI Assistant** for Enterprise tiers that can act on API work (edit requests, run and save requests, manage environments) using providers including Anthropic, OpenAI, Bedrock, Azure, or local runtimes [citation:2]. The free tier remains available, and self-hosting is supported. Positioned as the leading open-source Postman alternative.
+### 1. [Hoppscotch](https://hoppscotch.com/) [![GitHub stars](https://img.shields.io/github/stars/hoppscotch/hoppscotch?style=social&color=white)](https://github.com/hoppscotch/hoppscotch/stargazers)
+- **GitHub:** [`hoppscotch/hoppscotch`](https://github.com/hoppscotch/hoppscotch)
+- **Stack & License:** TypeScript / Vue.js | MIT License
+- **Key Features:** Fast, lightweight browser-based API client ecosystem and leading open-source Postman alternative. Natively supports REST, GraphQL, WebSocket, Server-Sent Events (SSE), and MQTT. Features real-time multi-environment syncing, team collaboration, self-hosted deployment, and an AI assistant.
 
-### Bruno
-**Stack:** JavaScript / Electron | **License:** MIT  
-An open-source API client that stores collections as plain files in your repository, enabling Git-based version control and PR reviews for API requests. Supports REST and GraphQL, environments, scripting, and test assertions. Positioned as a Git-friendly, offline-first alternative to Postman's cloud-synced collections. No account required. (Note: Search results include an unrelated French "Bruno" product; the API client is distinct.)
+### 2. [Bruno](https://www.usebruno.com/) [![GitHub stars](https://img.shields.io/github/stars/usebruno/bruno?style=social&color=white)](https://github.com/usebruno/bruno/stargazers)
+- **GitHub:** [`usebruno/bruno`](https://github.com/usebruno/bruno)
+- **Stack & License:** JavaScript / React / Electron | MIT License
+- **Key Features:** Fast and Git-friendly API client that saves collections directly in local filesystem folders using plain text markup (Bru language). Eliminates cloud synchronization lock-in and enables seamless peer reviews via Git PRs.
 
-### Swagger Editor (Self-Hosted)
-**Stack:** JavaScript / Monaco Editor | **License:** Apache-2.0  
-The Swagger Editor source is available for self-hosting. The new architecture uses Monaco Editor, Swagger ApiDOM for multi-specification parsing, and a modular plugin system using Redux [citation:3]. Supports OpenAPI 2.0/3.0/3.1 and AsyncAPI 2.x. Can be embedded in internal developer portals or deployed as a standalone editing environment. Custom LSP rules can enforce organization-specific API style guides [citation:3].
+### 3. [Insomnia](https://github.com/Kong/insomnia) [![GitHub stars](https://img.shields.io/github/stars/Kong/insomnia?style=social&color=white)](https://github.com/Kong/insomnia/stargazers)
+- **GitHub:** [`Kong/insomnia`](https://github.com/Kong/insomnia)
+- **Stack & License:** TypeScript / Electron | Apache-2.0 License
+- **Key Features:** Cross-platform desktop and web API design/testing client supporting REST, SOAP, GraphQL, gRPC, and Model Context Protocol (MCP). Backed by Kong with Git-sync, schema linting, environment variables, and plugin ecosystem.
 
-### Prism
-**Stack:** TypeScript / Node.js | **License:** Apache-2.0  
-Stoplight's open-source HTTP mock server that turns OpenAPI 2/3 and Postman Collection files into a mock API with validation, transformations, and dynamic responses [citation:11]. 4,650+ GitHub stars. Useful for API-first development where the spec is written before implementation, enabling frontend teams to develop against a mock server. Can be self-hosted and integrated into CI pipelines.
+### 4. [Yaak](https://yaak.app/) [![GitHub stars](https://img.shields.io/github/stars/mountain-loop/yaak?style=social&color=white)](https://github.com/mountain-loop/yaak/stargazers)
+- **GitHub:** [`mountain-loop/yaak`](https://github.com/mountain-loop/yaak)
+- **Stack & License:** Rust / Tauri / React | GPL-3.0 License
+- **Key Features:** Ultra-fast, lightweight desktop/web API client built with Rust and Tauri. Delivers native-level memory performance for executing REST, GraphQL, and gRPC requests with nested environments and authentication handlers.
 
-### Microcks
-**Stack:** Java / Kubernetes | **License:** Apache-2.0  
-An open-source, cloud-native tool for API mocking and testing, and a CNCF sandbox project [citation:11]. Supports OpenAPI, AsyncAPI, gRPC, GraphQL, and SOAP. Enables contract testing and mock generation from API specifications at scale. Suited for teams practicing API-first development with Kubernetes-native workflows.
+### 5. [Scalar](https://scalar.com/) [![GitHub stars](https://img.shields.io/github/stars/scalar/scalar?style=social&color=white)](https://github.com/scalar/scalar/stargazers)
+- **GitHub:** [`scalar/scalar`](https://github.com/scalar/scalar)
+- **Stack & License:** TypeScript / Vue.js | MIT License
+- **Key Features:** Modern, interactive API documentation engine and browser-based API client. Reads OpenAPI and Swagger specifications to render instant interactive API playgrounds, mock endpoints, and multi-language client code generation.
+
+### 6. [Swagger Editor](https://swagger.io/tools/swagger-editor/) [![GitHub stars](https://img.shields.io/github/stars/swagger-api/swagger-editor?style=social&color=white)](https://github.com/swagger-api/swagger-editor/stargazers)
+- **GitHub:** [`swagger-api/swagger-editor`](https://github.com/swagger-api/swagger-editor)
+- **Stack & License:** JavaScript / Monaco Editor | Apache-2.0 License
+- **Key Features:** Canonical browser-based editor for writing and linting OpenAPI 2.0/3.0/3.1 and AsyncAPI definitions. Powered by the Monaco Editor with Language Server Protocol (LSP) validation, autocompletion, and live rendering.
+
+### 7. [Mockoon](https://mockoon.com/) [![GitHub stars](https://img.shields.io/github/stars/mockoon/mockoon?style=social&color=white)](https://github.com/mockoon/mockoon/stargazers)
+- **GitHub:** [`mockoon/mockoon`](https://github.com/mockoon/mockoon)
+- **Stack & License:** TypeScript / Electron / Node.js | MIT License
+- **Key Features:** Effortless local and cloud API mock server generator. Create custom endpoints, mock complex JSON schemas, simulate network latency and HTTP status codes, and run mock setups headlessly in CI/CD pipelines via CLI or Docker.
+
+### 8. [WireMock](https://wiremock.org/) [![GitHub stars](https://img.shields.io/github/stars/wiremock/wiremock?style=social&color=white)](https://github.com/wiremock/wiremock/stargazers)
+- **GitHub:** [`wiremock/wiremock`](https://github.com/wiremock/wiremock)
+- **Stack & License:** Java / Cloud-native | Apache-2.0 License
+- **Key Features:** Industry-standard HTTP mock server and API stubbing library used worldwide for integration testing. Supports stateful mocking, request matching, fault injection, dynamic templating, and record-and-playback features.
+
+### 9. [Prism](https://stoplight.io/open-source/prism) [![GitHub stars](https://img.shields.io/github/stars/stoplightio/prism?style=social&color=white)](https://github.com/stoplightio/prism/stargazers)
+- **GitHub:** [`stoplightio/prism`](https://github.com/stoplightio/prism)
+- **Stack & License:** TypeScript / Node.js | Apache-2.0 License
+- **Key Features:** Open-source HTTP mock server created by Stoplight. Generates realistic mock endpoints directly from OpenAPI v2/v3 and Postman specifications with dynamic response generation and contract validation.
+
+### 10. [Microcks](https://microcks.io/) [![GitHub stars](https://img.shields.io/github/stars/microcks/microcks?style=social&color=white)](https://github.com/microcks/microcks/stargazers)
+- **GitHub:** [`microcks/microcks`](https://github.com/microcks/microcks)
+- **Stack & License:** Java / Kubernetes | Apache-2.0 License
+- **Key Features:** CNCF Sandbox cloud-native platform for API mocking and contract testing. Supports OpenAPI, AsyncAPI, GraphQL, gRPC, and SOAP protocols with turnkey deployment on Kubernetes and enterprise CI/CD integration.
 
 ---
 
 ## 📊 Comparison at a Glance
 
-| Software | License | Type | Web-Based | Self-Hosted | Free Tier | Best For |
-|----------|---------|------|-----------|-------------|-----------|----------|
-| **Postman Web** | Proprietary | Full API platform | ✅ | ❌ | ✅ 1 user | Industry default |
-| **Insomnia Cloud** | Proprietary | API client | ✅ | ❌ | ✅ Unlimited collab | Free team collaboration |
-| **Swagger Editor** | Proprietary | Spec editor | ✅ | ❌ | ✅ | OpenAPI design |
-| **Thunder Client** | Proprietary | VS Code client | Limited | ❌ | ✅ (50 req) | Lightweight VS Code testing |
-| **Firecamp** | Proprietary | Multi-protocol | ✅ | ❌ | ✅ | Multi-protocol testing |
-| **HTTPie Web** | Proprietary | Web companion | ✅ | ❌ | ✅ (freemium) | CLI-companion web UI |
-| **Apiary** | Proprietary | Design + docs | ✅ | ❌ | ⚠️ Deprecated | API Blueprint design |
-| **Runscope** | Proprietary | Monitoring | ✅ | ❌ | ❌ | API monitoring |
-| **Hoppscotch** | MIT | Full API ecosystem | ✅ | ✅ | ✅ | Open-source Postman alt |
-| **Bruno** | MIT | Git-native client | Limited | ✅ (desktop) | ✅ | Git-versioned collections |
-| **Swagger Editor (OSS)** | Apache-2.0 | Spec editor | ✅ | ✅ | ✅ | Self-hosted OpenAPI editing |
-| **Prism** | Apache-2.0 | Mock server | ❌ (server) | ✅ | ✅ | Spec-first mocking |
-| **Microcks** | Apache-2.0 | Mocking + testing | ❌ (server) | ✅ | ✅ | Kubernetes-native mocking |
+| Software | License | Web-Based | Self-Hosted | Free Tier Limits | Primary Best-Fit Scenario |
+|:---|:---|:---:|:---:|:---|:---|
+| **Postman Web** | Proprietary | ✅ | ❌ | Free for 1 user (unlimited runs & mocks) | Industry default full lifecycle API workspace |
+| **Insomnia** | Apache-2.0 / SaaS | ✅ | ✅ | Free forever unlimited collaboration | Free team collaboration & local Git sync |
+| **Swagger Editor** | Apache-2.0 | ✅ | ✅ | Free open-source editor / Free 1-user Hub | Canonical OpenAPI specification design |
+| **Hoppscotch** | MIT | ✅ | ✅ | Free forever self-hosted & cloud tier | Lightweight, self-hosted web API ecosystem |
+| **Bruno** | MIT | Limited (Desktop) | ✅ | Free forever open-source | Git-versioned repository collections |
+| **Scalar** | MIT | ✅ | ✅ | Free forever open-source | Interactive API documentation & browser client |
+| **Yaak** | GPL-3.0 | Limited (Desktop) | ✅ | Free forever open-source | Blazing-fast Rust/Tauri native API client |
+| **Mockoon** | MIT | ❌ (CLI / Desktop) | ✅ | Free forever open-source | Rapid zero-code local API mocking |
+| **WireMock** | Apache-2.0 | ❌ (Server / Cloud) | ✅ | Free forever open-source | Stateful contract testing & stubbing |
+| **Thunder Client** | Proprietary | Limited (VS Code) | ❌ | Free up to 3 collections (30 req/collection) | Lightweight VS Code integrated testing |
+| **Firecamp Web** | Proprietary | ✅ | ❌ | Free for up to 5 team members | Multi-protocol (WebSocket, Kafka, GraphQL) |
+| **HTTPie Web** | Proprietary | ✅ | ❌ | Free forever web/CLI app | CLI-companion web client & AI assistance |
+| **Apiary** | Proprietary | ✅ | ❌ | Free up to 5 collaborators (public APIs) | API Blueprint & documentation hosting |
+| **Prism** | Apache-2.0 | ❌ (CLI / Server) | ✅ | Free forever open-source | OpenAPI spec-first mock server generation |
+| **Microcks** | Apache-2.0 | ✅ (Web Console) | ✅ | Free forever open-source | CNCF enterprise Kubernetes contract testing |
+| **Runscope** | Proprietary | ✅ | ❌ | 14-day full free trial (no permanent free tier) | Synthetic cloud API monitoring & alerting |
+
+---
+
+## 🔍 SEO Keywords & Search Queries
+
+*Web-Based API Development Environment, online REST API client, Postman web alternative, self-hosted API testing tool, Hoppscotch online, open source API client, browser API designer, Swagger OpenAPI editor, GraphQL web testing, mock API server, API contract testing, Insomnia REST client, Bruno API git sync.*
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you know of an open-source Web-Based API Development Environment that should be listed here, please open a pull request with:
+Contributions are welcome! If you know of an open-source or browser-based API development platform that should be included:
 
-- Project name and URL
-- Brief description (1–2 sentences)
-- Stack and license
-- Why it stands out
+1. Fork this repository.
+2. Add your project under the appropriate section with complete metadata, accurate pricing/free limits, and GitHub stargazer badge.
+3. Submit a pull request detailing why the tool is beneficial.
 
-Please ensure the project is actively maintained (releases within the last 12 months) and genuinely open-source.
+Please verify the tool is actively maintained with updates in the last 12 months.
 
 ---
 
 ## 📄 License
 
-This list is released under CC0 1.0 Universal (Public Domain). The software projects listed retain their respective licenses.
+This repository is distributed under the [CC0 1.0 Universal](LICENSE) (Public Domain Dedication). Listed software projects retain their respective trademarks, copyrights, and licenses.
 
 ---
 
-⭐ **If this list helped you discover a useful tool, please star the repo!** ⭐
+⭐ **If this repository helped you find the right API tooling, please give it a star!** ⭐
